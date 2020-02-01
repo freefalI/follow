@@ -1,0 +1,32 @@
+{
+  "name": "as/follow",
+  "description": "rewrited overtrue/laravel-follow",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "as",
+      "email": "ashmatko75@gmil.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Freefall\\Follow\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "autoload": {
+      "psr-4": {
+        "Freefall\\Follow\\Test\\": "tests/"
+      }
+    }
+  },
+  "require": {
+    "php": ">=7.2"
+  },
+  "require-dev": {
+    "laravel/laravel": "6.12.*",
+    "phpunit/phpunit": "8.5.*",
+    "mockery/mockery": "1.3.*"
+  }
+}
